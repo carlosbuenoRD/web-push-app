@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Sono', sans-serif;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+.header {
+  background: #fff;
+  height: 70px;
+  margin-bottom: 4rem;
+}
+
+.header--nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80vw;
+  margin: auto;
+}
+
+.header--nav-title {
+  font-size: 2.2rem;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.header--nav-list {
+  display: flex;
+  width: 150px;
+  list-style: none;
+}
+
+.header--nav-list_item {
+  cursor: pointer;
+}
+
+.notifications {
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 3rem
+}
+
+
+.notifications--title {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.notifications--wrapper {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.notifications--wrapper-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notifications--wrapper-item_title {
+  margin-bottom: 0.6rem;
+}
+
+.notifications--wrapper-item_info {
+  margin-bottom: 1.2rem;
+  font-size: 0.8rem;
+}
+
+.notifications--wrapper-item_button {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(249, 116, 116);
+  color: black;
+  letter-spacing: 2px;
+}
